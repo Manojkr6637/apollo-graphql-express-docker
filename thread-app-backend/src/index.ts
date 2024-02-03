@@ -16,7 +16,7 @@ async function init(){
       `,
       resolvers: {
         Query:{
-          hello:()=>'Hello there, I am an graphql',
+          hello:()=>'Hello there, I am an graphql  ff',
           say:(_, {name}:{name: String})=>`Hello ${name}, I am an graph`
         }
       },
